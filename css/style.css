@@ -18,15 +18,20 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-}
-
-.logo span {
+    letter-spacing: 0.03em;
     color: #4D5AE5;
 }
 
+.logo span {
+   color: #2e2f42;
+}
+
 .header-link {
-    color: inherit;
+    color: #2e2f42;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
 }
 
 .header-link:hover,
@@ -36,6 +41,8 @@ body {
 
 .address-link {
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address-link:hover,
@@ -48,7 +55,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em
+    letter-spacing: 0.03em
 }
 
 .first-section {
@@ -78,19 +85,91 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 
-address {
+.contact-info {
     font-style: normal;
 }
 
 .second-section-title {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .second-section-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.third-section {
+    background-color: #F4F4FD;
+}
+
+.third-section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.third-section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.third-section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.third-section-item {
+    background-color: #ffffff;
+}
+
+.fourth-section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.first-section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+}
+
+.fourth-section-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.separate-text {
+    color: #f4f4fd  ;
+}
+
+.separate-logo {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 }
