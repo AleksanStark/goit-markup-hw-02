@@ -141,12 +141,12 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
 }
 
-.first-section-subtitle {
+.fourth-section-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -172,4 +172,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+}
+
+.footer-section {
+    background-color: #2e2f42;
 }
