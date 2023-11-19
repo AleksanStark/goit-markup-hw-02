@@ -6,16 +6,24 @@ ol {
 a {
     text-decoration: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color:  #FFFFFF ;
 }
-.header-logo {
+.logo {
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: inherit;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
 }
+
+.logo span {
+    color: #4D5AE5;
+}
+
 .header-link {
     color: inherit;
     font-weight: 500;
@@ -38,7 +46,9 @@ body {
 .main-title {
     color: #FFFFFF;
     font-size: 56px;
-    line-height: calc(56 / 60);
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em
 }
 
 .first-section {
@@ -51,9 +61,36 @@ body {
 
 .main-btn {
     cursor: pointer;
+    background-color: #4D5AE5 ;
+    color:  #ffffff ;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
 }
 
+.main-btn:hover,
+.main-btn:focus {
+    background-color: #404BBF;
+}
 
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
+address {
+    font-style: normal;
+}
 
+.second-section-title {
+    font-size: 20px;
+    font-weight: 500;
+}
 
+.second-section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
